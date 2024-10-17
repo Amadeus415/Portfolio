@@ -69,5 +69,4 @@ ipython_config.py
 Thumbs.db
 .DS_Store
 
-# lucide react
-node_modules/lucide-react
+
