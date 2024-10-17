@@ -68,3 +68,6 @@ ipython_config.py
 # OS generated files
 Thumbs.db
 .DS_Store
+
+# lucide react
+node_modules/lucide-react
