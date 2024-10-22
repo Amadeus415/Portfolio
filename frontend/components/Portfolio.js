@@ -118,7 +118,7 @@ export default function Portfolio() {
         <div className="mt-12 text-center">
           <h3 className="text-2xl font-semibold mb-4">Current Focus</h3>
           <p className="text-lg">
-            I'm currently working on projects involving machine learning, data analysis, and blockchain technology. 
+            I&apos;m currently working on projects involving machine learning, data analysis, and blockchain technology. 
             My goal is to create innovative solutions that leverage cutting-edge technologies to solve real-world problems.
           </p>
         </div>
