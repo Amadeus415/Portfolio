@@ -6,10 +6,10 @@ import { Github, Linkedin, Mail, FileText, ChevronDown, Sun, Moon } from 'lucide
 import { useTheme } from 'next-themes'
 
 const projects = [
-  { name: "AirbnbData Analysis", image: "/marin.jpg ", link: "#" },
-  { name: "Iron man Analytics", image: "/ironman.jpg", link: "#" },
-  { name: "Crypto Algo", image: "/crypto.jpg", link: "#" },
-  { name: "AI Nutrition App", image: "/food.jpg", link: "#" }
+  { name: "AirbnbData Analysis", image: "/marin.jpg ", link: "https://github.com/Amadeus415/airbnb-price-prediction?tab=readme-ov-file" },
+  { name: "Iron man Analytics", image: "/ironman.jpg", link: "https://github.com/Amadeus415/analytics/tree/main/Ironman_analysis" },
+  { name: "Crypto Algo(Coming Soon)", image: "/crypto.jpg", link: "#" },
+  { name: "AI Nutrition App(Coming Soon)", image: "/food.jpg", link: "#" }
 ]
 
 export default function Portfolio() {
@@ -51,10 +51,10 @@ export default function Portfolio() {
         </h1>
 
         <div className="mb-8 flex justify-center space-x-6">
-          <a href="https://www.linkedin.com" className="hover:text-blue-400 transition-colors">
+          <a href="https://www.linkedin.com/in/amadeus-colenbrander-72112520a/" className="hover:text-blue-400 transition-colors">
             <Linkedin size={32} />
           </a>
-          <a href="https://github.com" className="hover:text-pink-600 transition-colors">
+          <a href="https://github.com/Amadeus415/Projects" className="hover:text-pink-600 transition-colors">
             <Github size={32} />
           </a>
         </div>
@@ -69,16 +69,17 @@ export default function Portfolio() {
             <span className="absolute flex items-center justify-center w-full h-full text-purple-500 transition-all duration-300 transform group-hover:translate-x-full ease">Resume</span>
             <span className="relative invisible">Resume</span>
           </a>
-        <a href="mailto:amadeus.colenbrander@gmail.com" className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-pink-500 rounded-full shadow-md group" onClick={(e) => {
-            e.preventDefault();
-            window.location.href = "mailto:amadeus.colenbrander@gmail.com";
-          }}>
-            <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-pink-500 group-hover:translate-x-0 ease">
-              <Mail size={24} />
-            </span>
-            <span className="absolute flex items-center justify-center w-full h-full text-pink-500 transition-all duration-300 transform group-hover:translate-x-full ease">Contact</span>
-            <span className="relative invisible">Contact</span>
-          </a>
+          
+        <a
+          href="mailto:amadeus.colenbrander@gmail.com"
+          className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-pink-500 rounded-full shadow-md group"
+        >
+          <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-pink-500 group-hover:translate-x-0 ease">
+            <Mail size={24} />
+          </span>
+          <span className="absolute flex items-center justify-center w-full h-full text-pink-500 transition-all duration-300 transform group-hover:translate-x-full ease">Contact</span>
+          <span className="relative invisible">Contact</span>
+        </a>
         </div>
 
         <button 
